@@ -153,9 +153,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_hdr_plugin.so:system/lib/camera/libexcal_hdr_plugin.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_idt_ctrl_plugin.so:system/lib/camera/libexcal_idt_ctrl_plugin.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_image_conv_plugin.so:system/lib/camera/libexcal_image_conv_plugin.so \
+    vendor/sony/suzuran/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_iq_ctrl_plugin.so:system/lib/camera/libexcal_iq_ctrl_plugin.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_jpeg_enc_plugin.so:system/lib/camera/libexcal_jpeg_enc_plugin.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_lens_ctrl_plugin.so:system/lib/camera/libexcal_lens_ctrl_plugin.so \
+    vendor/sony/suzuran/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_motion_estimation_plugin.so:system/lib/camera/libexcal_motion_estimation_plugin.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_multiframe_nr_plugin.so:system/lib/camera/libexcal_multiframe_nr_plugin.so \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_object_tracker_plugin.so:system/lib/camera/libexcal_object_tracker_plugin.so \
@@ -167,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/suzuran/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/suzuran/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/suzuran/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/sony/suzuran/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/suzuran/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
     vendor/sony/suzuran/proprietary/lib/libcacao_imgproc.so:system/lib/libcacao_imgproc.so \
@@ -221,15 +224,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/libsomc_toppo.so:system/lib/libsomc_toppo.so \
     vendor/sony/suzuran/proprietary/lib/libsomc_yummyrsc.so:system/lib/libsomc_yummyrsc.so \
     vendor/sony/suzuran/proprietary/lib/libsomc_yummy.so:system/lib/libsomc_yummy.so \
+    vendor/sony/suzuran/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/sony/suzuran/proprietary/lib/libsony_fooddetect.so:system/lib/libsony_fooddetect.so \
     vendor/sony/suzuran/proprietary/lib/libsony_naruto.so:system/lib/libsony_naruto.so \
     vendor/sony/suzuran/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
+    vendor/sony/suzuran/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/sony/suzuran/proprietary/lib/libsuntory.so:system/lib/libsuntory.so \
     vendor/sony/suzuran/proprietary/lib/libsuntory_utils.so:system/lib/libsuntory_utils.so \
     vendor/sony/suzuran/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/suzuran/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/suzuran/proprietary/lib/libtpm.so:system/lib/libtpm.so \
     vendor/sony/suzuran/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
+    vendor/sony/suzuran/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
     vendor/sony/suzuran/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
     vendor/sony/suzuran/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/sony/suzuran/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
